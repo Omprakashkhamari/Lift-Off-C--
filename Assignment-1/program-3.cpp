@@ -8,13 +8,13 @@ int main() {
 
     int sum = 0;
     int digit;
-    int temp = number;
+    int b = number;
     do {
-        digit = temp % 10; 
+        digit = b % 10; 
         sum += digit; 
-        temp /= 10; 
+        b /= 10; 
     } while (temp != 0);     
-    cout << "Sum of digits of " << number << " is: " << sum << endl;
+    cout << "Sum of digits of " << number << " is: " << sum <<;
     return 0;
 }
 
